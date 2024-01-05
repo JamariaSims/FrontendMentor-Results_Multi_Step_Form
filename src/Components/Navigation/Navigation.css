@@ -1,0 +1,88 @@
+.Navigation {
+	width: 17.125rem;
+	height: 35.5rem;
+	background-image: url(../../Assets/Background1.png);
+	align-self: center;
+	border-radius: 1rem;
+	color: #ffffff;
+}
+.Navigation .Container {
+	padding: 1rem;
+	width: 9.563rem;
+	height: 14.25rem;
+}
+.Navigation .Container .Plan {
+	display: flex;
+	gap: 1.25rem;
+	margin-block: 2rem;
+}
+.Navigation .Container .Plan section {
+	display: flex;
+	flex-direction: column;
+}
+.Navigation .Container .Plan section .StepName {
+	font-size: 12px;
+	margin: 0;
+}
+.Navigation .Container .Plan section h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+}
+.Navigation .Step {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	background: none;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	border: solid 2px #ffffff;
+	border-radius: 100%;
+	margin: 0;
+}
+.Navigation .Select-Step {
+	color: #022959;
+	background: #bee2fd;
+	border: solid 2px #bee2fd;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	border-radius: 100%;
+	margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+	.Navigation {
+		background-image: url(../../Assets/Background2.png);
+		box-sizing: border-box;
+		width: 23.438rem;
+		height: 10rem;
+		border-radius: 0rem;
+		margin: 0;
+		position: absolute;
+		z-index: 0;
+	}
+	.Navigation .Container .Plan {
+		padding: 0;
+		margin: 0;
+	}
+	.Navigation .Container {
+		display: flex;
+		width: 100%;
+		width: 20.438rem;
+		margin: 0% auto;
+		justify-content: space-around;
+	}
+	.Navigation .Container .Plan section {
+		display: none;
+	}
+}

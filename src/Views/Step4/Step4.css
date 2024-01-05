@@ -1,0 +1,122 @@
+.SummaryContainer header {
+	display: flex;
+	justify-content: space-between;
+}
+.SummaryContainer header h2 {
+	font-size: 1rem;
+	font-weight: 600;
+	color: #022959;
+	text-align: left;
+	margin: 0%;
+	padding: 0%;
+	margin-bottom: 0.5rem;
+}
+.SummaryContainer header section p {
+	font-size: 0.875rem;
+	color: #9699aa;
+	background: none;
+	border: none;
+	margin: 0%;
+	padding: 0%;
+	text-align: left;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+}
+.SummaryContainer header section p:hover {
+	cursor: pointer;
+	color: #483eff;
+}
+.SummaryContainer header .Price {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #022959;
+}
+.Summary ol {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+.Summary ol li {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.Summary ol li p {
+	font-size: 0.875rem;
+	color: #9699aa;
+	margin: 0%;
+	padding: 0%;
+}
+.Summary ol li span {
+	font-size: 0.875rem;
+	color: #022959;
+	margin: 0;
+	padding: 0;
+}
+.SummaryContainer,
+ol {
+	background: hsl(229, 24%, 97%);
+	padding: 1rem 1.5rem;
+}
+hr {
+	border: solid 1px hsl(231, 11%, 92%);
+}
+.Summary .Total {
+	display: flex;
+	justify-content: space-around;
+	gap: 10rem;
+	margin-top: 2rem;
+}
+.Summary .Total p {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #9699aa;
+	margin: 0%;
+	padding: 0%;
+}
+.Summary .Total h3 {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #483eff;
+	margin: 0%;
+	padding: 0%;
+}
+
+@media screen and (max-width: 425px) {
+	.Summary {
+		width: 20.4rem;
+		margin: 0% auto;
+		background: #ffffff;
+	}
+	.Summary .SummaryContainer {
+		margin: 0% auto;
+		padding: 0%;
+		width: 17.438rem;
+		margin-top: 3rem;
+		padding: 1rem;
+	}
+	.Summary .SummaryContainer ol {
+		margin: 0% auto;
+		padding: 0%;
+	}
+	.Summary .Total {
+		display: grid;
+		grid-template-columns: 2rem 1fr;
+		width: 17.438rem;
+		margin: 0% auto;
+		margin-top: 2rem;
+		justify-content: center;
+	}
+	.Summary .Total p {
+		margin: 0%;
+		padding: 0%;
+		white-space: nowrap;
+	}
+}

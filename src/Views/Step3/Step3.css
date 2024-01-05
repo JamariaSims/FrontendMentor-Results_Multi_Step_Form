@@ -1,0 +1,84 @@
+.Addons {
+	display: flex;
+	flex-direction: column;
+}
+.Addons nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 0.8rem;
+}
+.Addons nav section {
+	display: flex;
+	justify-content: space-evenly;
+	background: hsl(243, 100%, 100%);
+	border-radius: 8px;
+	padding-block: 1rem;
+	border: 1px solid hsl(229, 24%, 95%);
+}
+.Addons nav section:hover {
+	border: 1px solid #483eff;
+	cursor: pointer;
+}
+#Selected-AddOn {
+	border: 1px solid #483eff;
+	background: #f8f9ff;
+}
+.Addons nav section div {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	line-height: 0rem;
+	padding: #483eff;
+}
+.Addons nav section h2 {
+	font-size: 16px;
+	color: #022959;
+	text-align: left;
+}
+.Addons nav section p {
+	font-size: 14px;
+	color: #9699aa;
+	text-align: left;
+}
+.Addons nav section .Price {
+	text-align: center;
+	align-self: center;
+	margin: 0.5rem 0rem;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	color: #483eff;
+	margin-left: 4rem;
+}
+@media screen and (max-width: 425px) {
+	.Addons {
+		margin-top: 2rem;
+		width: 20.4rem;
+		margin: 0% auto;
+		background: #ffffff;
+	}
+	.Addons nav {
+		margin-top: 2rem;
+	}
+	.Addons nav section {
+		display: grid;
+		grid-template-columns: 1fr 4fr 1fr;
+		justify-content: space-between;
+		margin: 0% auto;
+		width: 18.438rem;
+		height: 2.875rem;
+		align-items: center;
+	}
+	.Addons nav section h2 {
+		font-size: 0.875rem;
+	}
+	.Addons nav section p {
+		font-size: 0.75rem;
+	}
+	.Addons nav section div {
+		width: 100%;
+	}
+	.Addons nav section .Price {
+		margin: 0;
+	}
+}

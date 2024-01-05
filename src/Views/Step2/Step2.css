@@ -1,0 +1,137 @@
+.SelectPlan .Info {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.SelectPlan nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0% auto;
+}
+.SelectPlan nav div {
+	width: 7.625rem;
+	height: 9rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	border: 1px solid #9699aa;
+	border-radius: 0.75rem;
+	padding-left: 1rem;
+	padding-top: 1rem;
+}
+.SelectPlan nav div:hover {
+	border: 1px solid #483eff;
+	cursor: pointer;
+}
+.SelectPlan nav .Selected-Plan {
+	border: 1px solid #483eff;
+	background: hsl(243, 100%, 98%);
+}
+.SelectPlan nav div section {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+}
+.SelectPlan nav div section h2 {
+	font-size: 1rem;
+	color: #022959;
+	margin: 0;
+	margin-top: 2rem;
+}
+.SelectPlan nav div section p {
+	font-size: 0.75rem;
+	color: #9699aa;
+	margin: 0;
+}
+.SelectPlan .SliderContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: hsl(0, 0%, 89%);
+	border-radius: 0.5rem;
+	margin-top: 2rem;
+	padding: 2%;
+	text-align: center;
+	gap: 1rem;
+}
+.SelectPlan .SliderContainer input {
+	-webkit-appearance: none;
+	width: 2.375rem;
+	height: 1.25rem;
+	background: #022959;
+	border-radius: 0.625rem;
+	padding-right: 0.3rem;
+}
+.SelectPlan .SliderContainer label {
+	font-weight: 500;
+	color: #9699aa;
+}
+.SelectPlan .SliderContainer input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 0.75rem;
+	height: 0.75rem;
+	background: #ffffff;
+	border-radius: 100%;
+	margin-inline: 0.1rem;
+	cursor: pointer;
+}
+.SelectPlan nav div button {
+	background: none;
+	border: none;
+}
+.SelectPlan #Selected-Subscription {
+	color: #022959;
+}
+#Promo {
+	color: #022959;
+	font-size: 0.75rem;
+}
+@media screen and (max-width: 425px) {
+	.SelectPlan {
+		margin-top: 2rem;
+		width: 21.438rem;
+		margin: 0% auto;
+		background: #ffffff;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	}
+	.SelectPlan nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0.5rem;
+	}
+	.SelectPlan nav nav div {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		gap: 1rem;
+		width: 18.438rem;
+		margin: 0% auto;
+		margin-top: 1rem;
+		height: 4.375rem;
+	}
+	.SelectPlan nav nav div img {
+		width: 3rem;
+		height: 3rem;
+	}
+	.SelectPlan nav nav div h2 {
+		margin-top: 0rem;
+		margin-bottom: 0.8rem;
+	}
+	.SelectPlan nav nav div p {
+		font-size: 0.875rem;
+	}
+	.SelectPlan .SliderContainer {
+		width: 17.438rem;
+		margin: 0% auto;
+		margin-top: 2rem;
+		background: hsl(231, 100%, 97%);
+		display: flex;
+		justify-content: center;
+		margin-bottom: 2rem;
+		padding: 1rem;
+	}
+}

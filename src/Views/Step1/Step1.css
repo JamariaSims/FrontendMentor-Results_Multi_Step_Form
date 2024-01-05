@@ -1,0 +1,82 @@
+.CreateAccount form {
+	color: #022959;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+.CreateAccount form div {
+	display: flex;
+	justify-content: space-between;
+}
+.CreateAccount form label {
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #022959;
+	margin-bottom: 0.5rem;
+}
+.CreateAccount form span {
+	font-size: 0.875rem;
+	font-weight: bold;
+	color: #ee374a;
+	margin-bottom: 0.5rem;
+}
+.CreateAccount form input {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	width: 28.125rem;
+	height: 3rem;
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+}
+.CreateAccount form input:focus {
+	outline: none;
+	border: 1px solid #483eff;
+}
+.CreateAccount form input:hover {
+	cursor: pointer;
+}
+.CreateAccount button {
+	color: #ffffff;
+	width: 7.688rem;
+	height: 3rem;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+	background-color: #022959;
+	cursor: pointer;
+	position: relative;
+	align-self: flex-end;
+	margin-top: 5rem;
+}
+.CreateAccount .error {
+	border: red solid 1px;
+}
+
+@media screen and (max-width: 425px) {
+	.CreateAccount {
+		margin-top: 2rem;
+		width: 20.4rem;
+		margin: 0% auto;
+		background: #ffffff;
+	}
+	.CreateAccount form {
+		margin: 0% auto;
+		padding: 0;
+		margin-top: 1rem;
+	}
+	.CreateAccount form label {
+		margin-top: 1rem;
+	}
+	.CreateAccount form input {
+		width: 18.438rem;
+		margin: 0;
+		padding: 0;
+	}
+	.CreateAccount form span {
+		font-size: 0.875rem;
+		font-weight: bold;
+		color: #ee374a;
+		padding-top: 1rem;
+	}
+}

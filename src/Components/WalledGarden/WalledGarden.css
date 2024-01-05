@@ -1,0 +1,13 @@
+[class*="-Container-"] {
+	width: 28.125rem;
+	height: 23.938;
+	margin: 0% auto;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0% auto;
+}
+.hide {
+	display: none;
+}

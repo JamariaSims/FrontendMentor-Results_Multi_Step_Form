@@ -1,0 +1,41 @@
+.ThankYou {
+	align-self: center;
+}
+.ThankYou .Info {
+	margin: 0% auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10rem;
+}
+.ThankYou .Info img {
+	width: 5rem;
+	margin: 0% auto;
+}
+.ThankYou .Info h1 {
+	margin: 0% auto;
+	margin-block: 2rem;
+}
+.ThankYou .Info p {
+	font-size: 1rem;
+	line-height: 1.563rem;
+	color: #9699aa;
+	margin: 0% auto;
+	margin-block: 1rem;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+}
+@media screen and (max-width: 425px) {
+	.ThankYou {
+		width: 21.438rem;
+		margin: 0% auto;
+		background: #ffffff;
+		font-size: 1rem;
+		padding: 2rem;
+		border-radius: 0.5rem;
+	}
+	.ThankYou .Info {
+		margin: 0% auto;
+		margin-top: 2rem;
+	}
+}
